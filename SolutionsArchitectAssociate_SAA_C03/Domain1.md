@@ -20,6 +20,7 @@ Knowledge of
     * [More info](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#available-local-zones)
 
 ### AWS security best practices (for example, the principle of least privilege)
+
 ### The AWS shared responsibility model
 
 AWS is responsible for security OF the cloud (vms, network, data centers etc), you're responsible for security IN the cloud (managing access to your resources in the AWS cloud).
@@ -29,8 +30,53 @@ Skills in
 ***
 
 ### Applying AWS security best practices to IAM users and root users (for example, multi-factor authentication [MFA])
+* Don't use the root user to do real work
+* Enable MFA for root user, for others too (unless you have other enterprise solutions).
+
+
 ### Designing a flexible authorization model that includes IAM users, groups, roles, and policies
 ###  Designing a role-based access control strategy (for example, AWS Security Token Service [AWS STS], role switching, cross-account access)
 ### Designing a security strategy for multiple AWS accounts (for example, AWS Control Tower, service control policies [SCPs])
 ### Determining the appropriate use of resource policies for AWS services
 ### Determining when to federate a directory service with IAM roles
+
+## Task Statement 1.2: Design secure workloads and applications.
+
+***
+Knowledge of
+***
+### Application configuration and credentials security
+### AWS service endpoints
+### Control ports, protocols, and network traffic on AWS
+### Secure application access Security services with appropriate use cases (for example, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
+### Threat vectors external to AWS (for example, DDoS, SQL injection)
+
+***
+Skills in
+***
+
+### Designing VPC architectures with security components (for example, security groups, route tables, network ACLs, NAT gateways)
+### Determining network segmentation strategies (for example, using public subnets and private subnets)
+### Integrating AWS services to secure applications (for example, AWS Shield, AWS WAF, IAM Identity Center, AWS Secrets Manager)
+### Securing external network connections to and from the AWS Cloud (forexample, VPN, AWS Direct Connect)
+
+## Task Statement 1.3: Determine appropriate data security controls.
+
+***
+Knowledge of
+***
+### Data access and governance
+### Data recovery
+### Data retention and classification
+### Encryption and appropriate key management
+
+***
+Skills in
+***
+### Aligning AWS technologies to meet compliance requirements
+### Encrypting data at rest (for example, AWS Key Management Service [AWS KMS])
+### Encrypting data in transit (for example, AWS Certificate Manager [ACM] using TLS)
+### Implementing access policies for encryption keys
+### Implementing data backups and replications
+### Implementing policies for data access, lifecycle, and protection
+### Rotating encryption keys and renewing certificates
