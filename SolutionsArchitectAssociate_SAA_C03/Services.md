@@ -26,11 +26,11 @@ The following services are in-scope.
     * **Amazon Kinesis Data Firehose** -
     * **Amazon Kinesis Data Streams** -
 
-* AWS Lake Formation
-* Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+* [AWS Lake Formation](https://aws.amazon.com/lake-formation/)
+* [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](https://aws.amazon.com/msk/) - As its name implies :). Kafka is a streaming solution, kinda like kinesis.
 * Amazon OpenSearch Service
-* Amazon QuickSight
-* Amazon Redshift
+* [Amazon QuickSight](https://aws.amazon.com/quicksight/) - Reports and BI solution
+* [Amazon Redshift](https://aws.amazon.com/redshift/) - Data warehouse, postgress based.
 
 ## Application Integration
 
