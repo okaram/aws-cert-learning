@@ -30,6 +30,7 @@ The following services are in-scope.
 * [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](https://aws.amazon.com/msk/) - As its name implies :). Kafka is a streaming solution, kinda like kinesis.
 * Amazon OpenSearch Service
 * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - Reports and BI solution
+    * Skillbuilder - [Amazon Quicksight - Getting Started](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14908/amazon-quicksight-getting-started)
 * [Amazon Redshift](https://aws.amazon.com/redshift/) - Data warehouse, postgress based.
 
 ## Application Integration
@@ -55,7 +56,7 @@ The following services are in-scope.
 * [AWS Batch](https://aws.amazon.com/batch/) - Batch processing (lambda but for batches :)
 * [Amazon EC2](https://aws.amazon.com/ec2/) - Virtual machines in the cloud, plus magic.
 * [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) - Automatically add or remove EC2 instances.
-* AWS Elastic Beanstalk
+* [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - Deploy and scale web applications
 * AWS Outposts
 * AWS Serverless Application Repository
 * VMware Cloud on AWS
@@ -170,8 +171,8 @@ The following services are in-scope.
 * AWS Resource Access Manager (AWS RAM)
 * AWS Secrets Manager
 * AWS Security Hub
-* AWS Shield
-* AWS WAF
+* [AWS Shield](https://aws.amazon.com/shield/) - DDOS protection
+* [AWS WAF](https://aws.amazon.com/waf/) : Web Application Firewall -stateful 'firewall' for web apps. Filters requests to avoid common exploits.
 
 ## Serverless
 * AWS AppSync
