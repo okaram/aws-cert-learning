@@ -2,7 +2,7 @@
 
 The following services are in-scope.
 
-## Analytics
+## [Analytics](https://aws.amazon.com/big-data/datalakes-and-analytics/)
 
 * **[Amazon Athena](https://aws.amazon.com/athena/)** - Serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats. SQL on S3 :)
     * Skillbuilder - [Intro to Amazon Athena](https://explore.skillbuilder.aws/learn/course/external/view/elearning/152/introduction-to-amazon-athena)
@@ -34,8 +34,11 @@ The following services are in-scope.
 
 ## Application Integration
 
-* Amazon AppFlow
-* AWS AppSync
+* [Amazon AppFlow](https://aws.amazon.com/appflow/)
+    * [Cheatsheet (TD)](https://tutorialsdojo.com/amazon-appflow/)
+
+* [AWS AppSync](https://aws.amazon.com/appsync/) - GraphQL API service for connecting events, data and applications. API Gateway for GraphQL?
+
 * Amazon EventBridge
 * Amazon MQ
 * Amazon Simple Notification Service (Amazon SNS)
@@ -49,9 +52,9 @@ The following services are in-scope.
 * Savings Plans
 
 ## Compute:
-* AWS Batch
-* Amazon EC2
-* Amazon EC2 Auto Scaling
+* [AWS Batch](https://aws.amazon.com/batch/) - Batch processing (lambda but for batches :)
+* [Amazon EC2](https://aws.amazon.com/ec2/) - Virtual machines in the cloud, plus magic.
+* [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) - Automatically add or remove EC2 instances.
 * AWS Elastic Beanstalk
 * AWS Outposts
 * AWS Serverless Application Repository
@@ -145,6 +148,8 @@ The following services are in-scope.
 * AWS Site-to-Site VPN
 * AWS Transit Gateway
 * Amazon VPC
+    * An *elastic network interface*, **EIN** is a logical networking component in a VPC that represents a virtual network card. 
+
 
 ## Security, Identity, and Compliance:
 * AWS Artifact
@@ -175,9 +180,32 @@ The following services are in-scope.
 
 ## Storage:
 * AWS Backup
-* Amazon Elastic Block Store (Amazon EBS)
-* Amazon Elastic File System (Amazon EFS)
-* Amazon FSx (for all types)
-* Amazon S3
+* [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/ebs/) - Elastic Block storage. NAS-like block storage for EC2 instances
+* [Amazon Elastic File System (Amazon EFS)](https://aws.amazon.com/efs/) - Elastic NFS file system
+* [Amazon FSx](https://aws.amazon.com/fsx/) - Umbrella for several specialized file systems
+* [Amazon S3](https://aws.amazon.com/s3/)
+    * [Cheatsheet (TD)](https://tutorialsdojo.com/amazon-s3/)
+    * [Storage classes](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
+        * Frequent access
+            * S3 Standard - fast, 3 copies, multi-az
+            * S3 Express one zone - single-digit milisecond access, ONE AZ.
+            * Reduced redundancy storage - less redundancy, NOT RECOMMENDED
+        * Infrequent - Cheaper storage, almost as fast, charges for retrieval, minimum 128k
+            * S3 Standard IA
+            * S3 One-Zone IA
+        * Rarely access/Archive - Low storage cost, slow retrieval, minimum size(128k(/duration(90 days), 
+            * S3 Glacier Instant Retrieval - milliseconds
+            * S3 Glacier Flexible Retrieval - Up to 12 hours
+            * S3 Glacier Deep Archive - Up to 48 hours
+        * Automatic
+            * S3 Inteligent-Tiering
+                * Moves between
+                    * Frequent access (standard)
+                    * Infrequent access
+                    * Archive instant access
+                    * Archive (optional)
+                    * Deep Archive (optional) 
+
+
 * Amazon S3 Glacier
 * AWS Storage Gateway
