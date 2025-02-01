@@ -11,8 +11,9 @@ Knowledge of
 * Organizations, policies etc
 
 ### AWS federated access and identity services (for example, AWS Identity and Access Management [IAM], AWS IAM Identity Center [AWS Single Sign-On])
-    * Skillbuilder [AWS IAM - Architecture and Terminology](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/479/aws-identity-and-access-management-architecture-and-terminology)
-    * Skillbuilder [Deep Dive with Security - IAM](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/104/deep-dive-with-security-aws-identity-and-access-management-iam)
+
+* Skillbuilder [AWS IAM - Architecture and Terminology](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/479/aws-identity-and-access-management-architecture-and-terminology)
+* Skillbuilder [Deep Dive with Security - IAM](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/104/deep-dive-with-security-aws-identity-and-access-management-iam)
 
 ### AWS global infrastructure (for example, Availability Zones, AWS Regions)
 * A Region is a geographical area that contains multiple Availability zones (AZs). Regions are designed to be independent and isolated from each other.
@@ -66,8 +67,10 @@ Knowledge of
 ### Application configuration and credentials security
 ### AWS service endpoints
 ### Control ports, protocols, and network traffic on AWS
+
 * Skillbuilder [AWS Networking basics](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/12439/aws-networking-basics)
 * Skillbuilder [AWS Security best practices - Network Infrastructure](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/11218/aws-security-best-practices-network-infrastructure)
+
 ### Secure application access Security services with appropriate use cases (for example, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
 ### Threat vectors external to AWS (for example, DDoS, SQL injection)
 
