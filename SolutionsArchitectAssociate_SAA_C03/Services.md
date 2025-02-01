@@ -40,17 +40,17 @@ The following services are in-scope.
 
 * [AWS AppSync](https://aws.amazon.com/appsync/) - GraphQL API service for connecting events, data and applications. API Gateway for GraphQL?
 
-* Amazon EventBridge
-* Amazon MQ
-* Amazon Simple Notification Service (Amazon SNS)
-* Amazon Simple Queue Service (Amazon SQS)
-* AWS Step Functions
+* [Amazon EventBridge](https://aws.amazon.com/pm/eventbridge/) - Events from AWS and other places, and your applications can react to those events.
+* [Amazon MQ](https://aws.amazon.com/amazon-mq/) - Fully managed service for open-source message brokers (queues)
+* [Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/)
+* [Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/) - Queues 
+* [AWS Step Functions](https://aws.amazon.com/step-functions/) - Workflow orchestration
 
-## AWS Cost Management:
-* AWS Budgets
-* AWS Cost and Usage Report
-* AWS Cost Explorer
-* Savings Plans
+## [AWS Cost Management](https://aws.amazon.com/aws-cost-management/)
+* [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) - Set up one or more budgets, get notified when they're reached.
+* [AWS Cost and Usage Report](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/) - Dive deeper into your AWS cost and usage data.
+* [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - Visualize, understand, and manage your AWS costs and usage over time
+* [Savings Plans](https://aws.amazon.com/savingsplans/) - Bulk savings. Commit to spending and save money.
 
 ## Compute:
 * [AWS Batch](https://aws.amazon.com/batch/) - Batch processing (lambda but for batches :)
@@ -138,7 +138,7 @@ The following services are in-scope.
 * AWS Snow Family
 * AWS Transfer Family
 
-## Networking and Content Delivery
+## [Networking and Content Delivery](https://aws.amazon.com/products/networking/)
 * AWS Client VPN
 * Amazon CloudFront
 * AWS Direct Connect
@@ -185,6 +185,7 @@ The following services are in-scope.
 * [Amazon Elastic File System (Amazon EFS)](https://aws.amazon.com/efs/) - Elastic NFS file system
 * [Amazon FSx](https://aws.amazon.com/fsx/) - Umbrella for several specialized file systems
 * [Amazon S3](https://aws.amazon.com/s3/)
+    * Skillbuilder - [S3 Storage classes deep dive](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/497/amazon-simple-storage-service-amazon-s3-storage-classes-deep-dive)
     * [Cheatsheet (TD)](https://tutorialsdojo.com/amazon-s3/)
     * [Storage classes](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
         * Frequent access
