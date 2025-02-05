@@ -1,5 +1,7 @@
 # Resources
-
+* Videos
+    * [AWS Power hour - 2023](https://pages.awscloud.com/GLOBAL-Traincert-other-LS-AWS-Power-Hour-Associate-Certification-2023-reg.html) - 5 hours of video, one of intro, one per domainm with experts.
+    * [AWS Power hour - 2024](https://pages.awscloud.com/GLOBAL-other-T2-Traincert-AWS-Power-Hour-Architecting-Associate-Season-5-2024-reg.html) 2024 version 
 * Basic info
     * [AWS SAA-C03 Exam guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
     * [AWS Sample questions](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)

@@ -66,6 +66,10 @@ Knowledge of
 ***
 ### Application configuration and credentials security
 ### AWS service endpoints
+* An **endpoint** is the URL of the entry point for an AWS web service.
+* SDKs automatically use the default one, but you can specify a different one.
+* Endpoints can be regional or global, and sometimes FIPS or dual stack.
+* Private link enables you to create VPC endpoints, which would create different DNS names and private IP addresses for the services.
 ### Control ports, protocols, and network traffic on AWS
 
 * Skillbuilder [AWS Networking basics](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/12439/aws-networking-basics)
