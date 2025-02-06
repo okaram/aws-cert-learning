@@ -10,3 +10,5 @@ Notes and resources for AWS Certifications.
 
 * [Services](SolutionsArchitectAssociate_SAA_C03/Services.md)
 * [Resources](SolutionsArchitectAssociate_SAA_C03/Resources.md)
+
+## [Machine Learning Engineer Associate - MLA-C01](MachineLearningEngineer_MLA_C01/README.md)
