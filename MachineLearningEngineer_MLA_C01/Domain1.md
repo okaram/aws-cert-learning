@@ -12,9 +12,9 @@ SageMaker supports many different formats for [Training](https://docs.aws.amazon
 * [Apache Parquet](https://parquet.apache.org/) - an open source, column-oriented data file format designed for efficient data storage and retrieval.
 * [JSON](https://www.json.org/) - Javascript Object Notation, a text-based format close to how Javascript would represent a dictionary or object.
 * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) - Comma-separated values. Text based, each line is a row, values are separated by commas; may wrap values in "" if they contain commas; may contain a header or not.
-* [Apache ORC]()
-* [Apache Avro]()
-* [RecordIO]()
+* [Apache ORC](https://orc.apache.org/) - Another columnar data format; binary, includes indexes for each column, supports complex types.
+* [Apache Avro](https://avro.apache.org/) - serialization format for record data.
+* [RecordIO](https://mesos.apache.org/documentation/latest/recordio/) - Binary, data is a series of records, for each record we first put its lengh in bytes, and then the bytes, which are usually binary, may be compressed.
 
 ###  How to use the core AWS data sources (for example, Amazon S3, Amazon Elastic File System [Amazon EFS], Amazon FSx for NetApp ONTAP)
 
@@ -22,17 +22,32 @@ SageMaker supports many different formats for [Training](https://docs.aws.amazon
 
 ### AWS storage options, including use cases and tradeoffs
 
+* Amazon S3
+* EBS
+* EFS
+* FSx (several versions)
+* Storage gateway
+* Databases
+    * DynamoDB
+    * RDS
+    * Aurora
+    * Timestream
+    * ...
 ***
 Skills in:
 ***
 
 ### Extracting data from storage (for example, Amazon S3, Amazon ElasticBlock Store [Amazon EBS], Amazon EFS, Amazon RDS, Amazon DynamoDB) by using relevant AWS service options (for example, Amazon S3 Transfer Acceleration, Amazon EBS Provisioned IOPS)
+
 ### Choosing appropriate data formats (for example, Parquet, JSON, CSV, ORC) based on data access patterns
+
 ### Ingesting data into Amazon SageMaker Data Wrangler and SageMaker Feature Store
+
 ### Merging data from multiple sources (for example, by using programming techniques, AWS Glue, Apache Spark)
+
 ### Troubleshooting and debugging data ingestion and storage issues that involve capacity and scalability
-### Making initial storage decisions based on cost, performance, and data
-structure
+
+### Making initial storage decisions based on cost, performance, and data structure
 
 ## Task Statement 1.2: Transform data and perform feature engineering.
 
