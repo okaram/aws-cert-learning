@@ -100,6 +100,8 @@ The following services are in-scope.
 * Amazon Polly
 * Amazon Rekognition
 * Amazon SageMaker
+    * Sagemaker Model Monitor
+    * Sagemaker Ground Truth
 * Amazon Textract
 * Amazon Transcribe
 * Amazon Translate
