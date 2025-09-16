@@ -54,8 +54,6 @@ DynamoDB is a highly scalable key-value store, where the values can be complex o
 Text based formats, like JSON or CSV are human readable, and usually easy to generate without external libraries, but require extra storage and are slow, since numeric data has to be parsed. Binary formats are harder to generate and require special libraries, but are smaller and faster to process.
 
 
-
-
 ### Ingesting data into Amazon SageMaker Data Wrangler and SageMaker Feature Store
 
 ### Merging data from multiple sources (for example, by using programming techniques, AWS Glue, Apache Spark)
